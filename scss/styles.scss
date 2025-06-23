@@ -80,13 +80,12 @@ img.photo-1 {
   top: 240px;
   left: 50%;
   transform: translateX(-50%);
-  width: 270px; // увеличено
+  width: 270px; 
   text-align: center;
   color: $gray-text;
   padding: 10px 0;
   font-size: 10px;
-  line-height: 1.4; // для лучшего межстрочного интервала
-}
+  line-height: 1.4; }
 
 .photo-info {
   position: absolute;
@@ -193,8 +192,8 @@ img.photo-1 {
 nav ul {
   display: flex;
   align-items: center;
-  justify-content: start; // или space-between, если хочешь растянуть
-  gap: 30px; // расстояние между пунктами
+  justify-content: start; 
+  gap: 30px; 
   list-style: none;
   padding: 20px;
   margin: 0;
@@ -224,5 +223,5 @@ nav ul {
   list-style: none;
   padding: 20px;
   margin: 0;
-  margin-left: 150px; // ← добавь это
+  margin-left: 150px; 
 }

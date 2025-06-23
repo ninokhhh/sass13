@@ -1,0 +1,297 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: "";
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image-with-text img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: sans-serif;
+}
+
+.nav-link {
+  width: 32px;
+  height: 13px;
+  color: black;
+  padding: 21px 15px 32px 23px;
+  font-size: 11px;
+  margin: 20px 0 20px 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+img {
+  vertical-align: middle;
+  margin-left: 30px;
+  margin-top: 3px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  width: 120px;
+  height: 28px;
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.image-container {
+  position: relative;
+  width: 362px;
+  display: inline-block;
+  overflow: hidden;
+}
+.image-container img {
+  width: 362px;
+  display: block;
+  border-radius: 0;
+}
+
+img.photo-1 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 10;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-75%);
+  color: #ffffff;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 700;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.overlay-text11 {
+  position: absolute;
+  top: 240px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 270px;
+  text-align: center;
+  color: #8a8787;
+  padding: 10px 0;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.photo-info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  z-index: 10;
+}
+
+.time-text {
+  margin-left: 60px;
+  transform: translateY(-12px);
+  font-size: 10px;
+  color: #8a8787;
+  font-weight: 500;
+}
+
+.flexbox {
+  margin-right: 950px;
+  width: 196px;
+  margin-top: 20px;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.photo-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.nawili2 {
+  display: block;
+  width: 700px;
+  height: 430px;
+}
+
+.overlay {
+  position: absolute;
+  top: 220px;
+  left: 0;
+  width: 100%;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.nawili3 {
+  margin-top: 20px;
+}
+
+.nawili4 {
+  margin-top: 60px;
+}
+
+.nawili5 {
+  margin-top: 50px;
+}
+
+.image-with-text {
+  position: relative;
+  display: inline-block;
+}
+.overlay-text-column {
+  position: absolute;
+  top: 40px;
+  left: 150px;
+  color: #818687;
+  font-weight: bold;
+  font-size: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  -moz-column-count: 3;
+       column-count: 3;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.overlay-text-column li {
+  margin-bottom: 10px;
+}
+
+.ptag {
+  position: absolute;
+  top: 40px;
+  right: 500px;
+  color: #ffffff;
+  font-size: 14px;
+  white-space: nowrap;
+  font-weight: bold;
+  max-width: 200px;
+  text-align: right;
+}
+
+.logo {
+  position: relative;
+  margin-top: -200px;
+  margin-left: 2100px;
+  top: 40px;
+  right: 500px;
+  width: 38px;
+  height: 40px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+
+.img {
+  width: 35px;
+  height: auto;
+}
+
+.tranding-line {
+  margin-top: 10px;
+  margin-left: 170px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  padding: 20px;
+  margin: 0;
+  margin-left: 150px;
+}/*# sourceMappingURL=styles.css.map */

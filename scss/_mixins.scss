@@ -1,0 +1,12 @@
+
+@mixin font($size, $weight: normal, $color: black) {
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+}
+
+@mixin abs-pos($top, $left) {
+  position: absolute;
+  top: $top;
+  left: $left;
+}

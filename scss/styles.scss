@@ -2,7 +2,7 @@
 @use 'variables' as *;
 @use 'mixins' as *;
 @use 'placeholders';
-
+@use 'responsive'; 
 body {
   background-color: $main-bg;
   font-family: $font-main;
